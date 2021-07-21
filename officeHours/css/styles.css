@@ -1,0 +1,7 @@
+img {
+    max-width: 100px;
+}
+.imgBorder {
+    border: 5px groove cyan;
+    border-radius: 20%;
+}
