@@ -1,7 +1,7 @@
 img {
     max-width: 100px;
 }
-.imgBorder {
-    border: 5px groove cyan;
-    border-radius: 20%;
+body {
+    background-color: #444242;
+    color:#e0c6a6;
 }
