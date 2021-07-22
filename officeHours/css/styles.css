@@ -5,3 +5,19 @@ body {
     background-color: #444242;
     color:#e0c6a6;
 }
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.toons {
+    margin: 1em;
+    padding: .5em;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
