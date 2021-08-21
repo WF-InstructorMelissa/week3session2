@@ -15,3 +15,10 @@ $(document).ready(function() {
 function myFunction() {
     alert("You clicked a Toon!")
 }
+
+let count01 = 0
+function likes() {
+    console.log("clicked")
+    count01++
+    document.getElementById('like01').innerHTML = count01
+}
