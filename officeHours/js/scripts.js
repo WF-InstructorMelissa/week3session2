@@ -9,9 +9,10 @@ $(document).ready(function() {
             html_str += "</section>";
         }
         $(".main").html(html_str);
-    }, "json");
+    }, "json")
 })
 
 function myFunction() {
     alert("You clicked a Toon!")
 }
+// var data = fetch(`https://looney-toons-api.herokuapp.com/api/characters`).then(data => {return data}).then(console.log("line 18 fetch data", data))
